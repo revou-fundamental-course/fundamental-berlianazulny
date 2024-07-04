@@ -1,0 +1,69 @@
+/* ini CSS */
+
+body {
+    padding: 40px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-icon {
+    height: 70px;
+    width: 70px;
+
+    /* For Image Icon */
+    background-image: url(../assets/LOGO\ ADIL\ MERAH\,BG\ PUTIH_1\ 1.png);
+    border-radius: 0%;
+    background-size: cover;
+}
+
+nav>a {
+    padding-left: 32px;
+    padding-right: 32px;
+    border: 1px solid;
+}
+
+.banner-container {
+    height: 350px;
+    width: 100%;
+    border: 1px solid;
+}
+
+.services-content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.services-item {
+    text-align: center;
+    flex: 1;
+    text-align: -webkit-center;
+}
+
+.services-icon {
+    height: 200px;
+    width: 220px;
+
+    /* For Image Icon */
+    border-radius: 20%;
+    background-size: cover;
+}
+
+.services-1 {
+    background-image: url(../assets/Jasa\ Pengacara.jpg)
+}
+
+.services-2 {
+    background-image: url(../assets/Konsultasi\ Hukum.jpg)
+}
+
+.services-3 {
+    background-image: url(../assets/Adil\ Academy.jpg)
+}
+
+.divider {
+    flex: 2;
+}
