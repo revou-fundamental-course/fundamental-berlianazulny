@@ -1,5 +1,11 @@
 /* ini CSS */
 
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;;
+}
+
 body {
     font-family: arial;
     font-size: 30px;
@@ -20,8 +26,33 @@ section {
     align-items: center;
     padding-top: 40px;
     padding-bottom: 40px;
-    padding-right: 50px;
-    padding-left: 50px;
+    padding-right: 150px;
+    padding-left: 150px;
+    background-color:#BF1F1F;
+}
+
+.nav-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-button>li {
+    list-style-type: none;
+    padding: 15px;
+}
+
+.nav-button>li>a {
+    color:white;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.nav-button>li>a:hover {
+    background-color: white;
+    color:#BF1F1F;
+    padding: 15px;
+    border-radius: 10%;
 }
 
 .logo-icon {
@@ -29,7 +60,7 @@ section {
     width: 100px;
 
     /* For Image Icon */
-    background-image: url(../assets/LOGO\ ADIL\ MERAH\,BG\ PUTIH_1\ 1.png);
+    background-image: url(../assets/Logo\ ADIL.png);
     border-radius: 0%;
     background-size: cover;
 }
