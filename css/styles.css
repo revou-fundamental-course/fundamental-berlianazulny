@@ -1,6 +1,16 @@
 /* ini CSS */
 
 body {
+    font-family: arial;
+    font-size: 30px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+section {
     padding: 40px;
 }
 
@@ -8,11 +18,15 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 50px;
+    padding-left: 50px;
 }
 
 .logo-icon {
-    height: 70px;
-    width: 70px;
+    height: 100px;
+    width: 100px;
 
     /* For Image Icon */
     background-image: url(../assets/LOGO\ ADIL\ MERAH\,BG\ PUTIH_1\ 1.png);
@@ -27,9 +41,10 @@ nav>a {
 }
 
 .banner-container {
-    height: 350px;
+    height: 1000px;
     width: 100%;
-    border: 1px solid;
+    background-size: cover;
+    background-image: url(../assets/Banner\ ADIL\ 2.png)
 }
 
 .services-content {
@@ -62,8 +77,4 @@ nav>a {
 
 .services-3 {
     background-image: url(../assets/Adil\ Academy.jpg)
-}
-
-.divider {
-    flex: 2;
 }

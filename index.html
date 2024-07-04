@@ -9,6 +9,8 @@
 </head>
 
 <body>
+    <script src="js/script.js"></script>
+
     <!-- Header Nav -->
     <header class="nav-container">
         <div class="logo-icon"></div>
@@ -16,29 +18,18 @@
         <nav>
             <a>Home</a>
             <a href="#our-services">Our Services</a>
-            <a>About Us</a>
-            <a>Message Us</a>
+            <a href="#about-us">About Us</a>
+            <a href="#message-us">Message Us</a>
         </nav>
     </header>
-    <hr />
 
     <main>
     <!-- Home Content -->
-     <section>
-        <header>
-            <h1>Hi Berliana, Welcome to ADIL</h1>
-        </header>
-
+     <div>
         <article>
-            <p>Ini adalah wesbite portfolio pertama</p>
-
-            <div class="banner-container">
-
-            </div>
+            <div class="banner-container">/div>
         </article>
-     </section>
-
-     <hr />
+    </div>
 
     <!-- Our Services Content -->
      <section id="our-services">
@@ -62,8 +53,6 @@
                 <p>ADIL Academy</p>
             </div>
 
-            <div class="divider">
-
             </div>
         </article>
      </section>
@@ -71,16 +60,24 @@
      <hr />
 
     <!-- About Us Content -->
-     <section>
+     <section id="about-us">
         <header>
             <h1>About Us</h1>
         </header>
-
-        <article>
-
-        </article>
      </section>
+
+     <hr />
+
     <!-- Message Us Content --> 
+    <section id="message-us">
+        <header>
+            <h1>Message Us</h1>
+        </header>
+        <form>
+            <label for="name">Nama</label>
+            <input id="name" type="text">
+        </form>
+     </section>
     </main>
 
 </body>
